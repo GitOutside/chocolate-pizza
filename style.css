@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+}
+nav{
+  width: 960px;
+  margin: 35px auto;
+  /* border-bottom: 10px solid gray; */
+}
+nav > img{
+  float: left;
+}
+
+nav > h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 38px;
+}
+nav > p {
+  font-size: 14px;
+}
+nav ul{
+  margin: 0 0 0 655px;
+}
+nav ul li {
+  display: inline;
+  
+}
+.border {
+  height: 15px;
+  width: 960px;
+  background-image: repeating-linear-gradient(45deg,
+      transparent,
+      transparent 20px,
+      black 10px,
+      black 10px);
+  /* with multiple color stop lengths */
+  background-image: repeating-linear-gradient(45deg, 
+      transparent 0 30px, 
+      black 30px 40px);
+}
+div > h1 {
+  width: 960px;
+}
+#hero {
+  margin: auto;
+}
