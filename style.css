@@ -27,6 +27,7 @@ nav ul li {
 .border {
   height: 15px;
   width: 960px;
+  margin: auto;
   background-image: repeating-linear-gradient(45deg,
       transparent,
       transparent 20px,
@@ -37,9 +38,56 @@ nav ul li {
       transparent 0 30px, 
       black 30px 40px);
 }
-div > h1 {
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.itemContent {
   width: 960px;
+  margin: auto;
+}
+div > h1 {
+  margin-top: 60px;
+  font-family: 'Londrina Solid', cursive;
+  font-size: 40px;
 }
 #hero {
   margin: auto;
+}
+.itemContent .notepad {
+  position: relative;
+  height: 305px;
+  margin: 20px auto;
+}
+.notepad img {
+  position: absolute;
+  z-index: 1;
+}
+.notepad ul {
+  position: absolute;
+  z-index: 100;
+}
+.notepad .column-1 {
+  top: 12%;
+  left: 10%;
+}
+.notepad .column-2 {
+  top: 12%;
+  left: 50%;
+}
+.notepad li:before {
+  content:"\2713\0020";
+}
+.notepad li {
+  padding: 8px;
+}
+.profileContent {
+  height: 150px;
+}
+.profileContent img {
+  float: left;
+  position: relative;
+}
+.profileContent button {
+  position: absolute;
+  top: 50%;
 }
