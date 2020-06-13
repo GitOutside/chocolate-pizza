@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  color: #1c1c1c;
 }
 nav{
   width: 960px;
@@ -44,6 +45,11 @@ body {
 .itemContent {
   width: 960px;
   margin: auto;
+}
+.itemContent p {
+  text-align: justify;
+  width: 900px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 div > h1 {
   margin-top: 60px;
@@ -95,7 +101,9 @@ div > h1 {
   margin-top: 10px;
   height: 55px;
   width: 190px;
-  background-color: rgb(240, 103, 85);
+  background-color: rgb(238, 107, 90);
+  color: rgb(238, 238, 238);
+  font-size: 16px;
 }
 .textBox {
   width: 600px;
@@ -110,4 +118,15 @@ div > h1 {
 }
 .textBox p {
   line-height: 22px;
+}
+footer .itemContent {
+  width: 960px;
+  margin: 0 auto 80px;
+  text-align: center;
+}
+footer p {
+  width: 960px;
+  margin: 20px auto;
+  padding-left: 300px;
+  line-height: 20px;
 }
