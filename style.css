@@ -80,14 +80,34 @@ div > h1 {
 .notepad li {
   padding: 8px;
 }
-.profileContent {
+.itemContent .profileContent {
   height: 150px;
+  position: relative;
+  margin: 20px;
 }
 .profileContent img {
   float: left;
-  position: relative;
 }
 .profileContent button {
   position: absolute;
-  top: 50%;
+  top: 0;
+  left: 75%;
+  margin-top: 10px;
+  height: 55px;
+  width: 190px;
+  background-color: rgb(240, 103, 85);
+}
+.textBox {
+  width: 600px;
+  margin-left: 15px;
+  padding-top: 8px;
+  float: left;
+}
+.textBox h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.textBox p {
+  line-height: 22px;
 }
